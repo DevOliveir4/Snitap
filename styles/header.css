@@ -1,0 +1,41 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 32px;
+
+    a {
+        position: relative;
+
+        img {
+            width: 32px;
+            transition: all .5s ease-out;
+        }
+
+        img[src*=bag]:hover {
+            transform: rotate(-30deg);
+        }
+
+        img[src*=Logo]:hover {
+                transform: rotate(-90deg);
+        }
+
+        span {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -5px;
+            right: -5px;
+            font-size: 0.75rem;
+            font-family: "Inter";
+            background-color: var(--snitap-sun);
+        }
+    }
+
+
+}

@@ -1,0 +1,105 @@
+footer {
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .logo {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        font: 700 1.2rem/120% var(--ff-syne);
+    }
+
+    & nav {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        
+        & a {
+            font: var(--mont-btn);
+            position: relative;
+            width: fit-content;
+
+            &:hover::after{
+                transform: scaleX(1);
+                opacity: 1;
+            }
+        }
+
+        & a::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: var(--snitap-sky-mid);
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            
+            transform: scaleX(0);
+            opacity: 0;
+            transition: transform .5s linear;
+        }
+    }
+
+    & .social {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        & a {
+            position: relative;
+            width: 2.5rem;
+            height: 2.5rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 5rem;
+
+            &:hover::before {
+                scale: 1;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                scale: 0;
+
+                width: inherit;
+                height: inherit;
+                border-radius: inherit;
+
+                background-color: var(--snitap-sun);
+
+                transition: scale .3s ease;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        flex-direction: column;
+        align-items: start;
+        gap: 16px;
+        
+    }
+}
+
+@media (max-width: 568px) {
+    footer {
+        gap: 2rem;
+        & nav {
+            flex-direction: column;
+            
+            align-items: start;
+        }
+    }
+}

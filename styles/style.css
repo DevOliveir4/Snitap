@@ -1,12 +1,18 @@
 @import url("font.css");
 @import url("global.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("banner.css");
+@import url("galeria.css");
+@import url("footer.css");
 
 
 
 :root {
-    --snap-sun: #ffcd1e;
+    --snitap-sun: #ffcd1e;
     --snitap-sky-mid: #06b6d4; 
-    --snitap-sky-ligth: #db2777; 
+    --snitap-sky-ligth: #06B6D4; 
+    --snitap-joy-mid: #DB2777;
     --snitap-joy-ligth: #f472b6;
     --snitap-leaf-mid: #16a34a;
 
@@ -15,8 +21,8 @@
     --background: #fafafa;
 
     --ff-syne: "Syne";
-    --syne-h1: 800 4rem/125% var(--ff-syne);
-    --syne-h2: 800 2.5rem/120% var(--ff-syne);
+    --syne-h1: 700 4rem/125% var(--ff-syne);
+    --syne-h2: 700 2.5rem/120% var(--ff-syne);
 
     --ff-mont: Montserrat;
     --mont-btn: 500 1rem/ 150% var(--ff-mont); 
