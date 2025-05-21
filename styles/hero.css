@@ -24,11 +24,11 @@
             }
 
             span:nth-child(2) {
-                color: var(--snitap-sky-ligth);
+                color: var(--snitap-leaf-mid);
             }
 
             span:nth-child(3) {
-                color: var(--snitap-leaf-mid);
+                color: var(--snitap-joy-mid);
             }
             
             span:nth-child(4) {
