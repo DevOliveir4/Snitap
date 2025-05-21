@@ -1,36 +1,41 @@
-# 🎨 Snitap - Projeto de Landing Page para Aplicativo
+# 🛼 Snitap - Projeto Educacional de Site Promocional
 
-Este repositório contém o projeto Snitap, uma landing page fictícia desenvolvida com fins educacionais para praticar HTML5, CSS3 e técnicas de design responsivo, com foco em apresentação visual moderna e clean.
+Este repositório contém um projeto **educacional** de front-end que simula uma landing page promocional para a marca fictícia **Snitap** — um produto voltado a um estilo de vida saudável, radical e divertido.  
+
+O objetivo principal deste projeto é praticar **HTML5** e **CSS3**, desenvolvendo habilidades de estruturação, estilização e criação de interfaces modernas e responsivas.
 
 🔗 **Acesse o projeto online:**  
-👉 [Visualizar site](https://devoliveir4.github.io/Snitap/)
+👉 [Clique aqui para visualizar o site](https://devoliveir4.github.io/Chroma/pag.home/chroma.html)
 
 ---
 
 ## 🎯 Objetivos do Projeto
 
-- Praticar estruturação semântica com HTML5.  
-- Aplicar conceitos avançados de estilização com CSS3.  
-- Criar uma interface moderna e atraente para apresentação de apps.  
-- Desenvolver layout responsivo para diversos dispositivos.  
-- Publicar site estático usando GitHub Pages.
+- Praticar marcação semântica com HTML5.
+- Aplicar estilização visual com CSS3.
+- Trabalhar com layout responsivo.
+- Criar uma experiência visual atrativa com elementos animados.
+- Simular elementos comuns em landing pages reais (botões de compra, galeria, redes sociais).
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
-- HTML5  
-- CSS3 (Flexbox, Grid, Media Queries)  
-- Design responsivo e clean  
+- HTML5
+- CSS3
+- Layout responsivo
+- Ícones e imagens SVG
+- Animações simples com CSS
+
+---
+
+## 📝 Créditos
+
+Projeto desenvolvido como parte de estudos pessoais de front-end por [Gabriel Carmo](https://www.linkedin.com/in/devoliveir4).
 
 ---
 
 ## 🚀 Status
 
-✅ Projeto finalizado para fins educacionais e portfólio.
+✅ Projeto finalizado para fins educacionais e portfólio pessoal.
 
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por [Gabriel Carmo](https://www.linkedin.com/in/devoliveir4)
