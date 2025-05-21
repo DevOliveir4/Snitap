@@ -1,6 +1,6 @@
 # 🎨 Snitap - Projeto de Landing Page para Aplicativo
 
-Este repositório contém o projeto **Snitap**, uma landing page fictícia para divulgação de aplicativo móvel, desenvolvida com fins **educacionais** para praticar HTML5, CSS3 e técnicas de design responsivo.
+Este repositório contém o projeto Snitap, uma landing page fictícia desenvolvida com fins educacionais para praticar HTML5, CSS3 e técnicas de design responsivo, com foco em apresentação visual moderna e clean.
 
 🔗 **Acesse o projeto online:**  
 👉 [Visualizar site](https://devoliveir4.github.io/Snitap/)
